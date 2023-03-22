@@ -1,15 +1,15 @@
-int print_sign(int n)
-
+# include "main.h"
 /**
+ * print_sign-check the sign of a number.
+ *
+ * @n:Number whose sign is to be checked.
+ * Return:1-if n is greater than 0: 0- if n equals 0:-1-if n is less than 0
+ */
 
-* print_sign - prints the sign of a number
-* @n: the number to check
-*
-* Return: 1 if positive, -1 if negative, 0 if zero
-*/
 
+
+int print_sign(int n)
 {
-
 	if (n > 0)
 	{
 		_putchar('+');
