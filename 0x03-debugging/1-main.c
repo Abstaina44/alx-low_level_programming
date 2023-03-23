@@ -6,7 +6,8 @@
  */                                                                          
 
 int main(void) 
-{                                                             
+{ 
+
     int i;                                                                    
     printf("Infinite loop incoming :( \n");                                   
 
@@ -18,7 +19,6 @@ int main(void)
      *}                                                                       
      */                                                                       
     printf("Infinite loop avoided! \\o/ \n");                                 
-
     return (0);    
 
 }
