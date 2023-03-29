@@ -21,4 +21,4 @@
    printf("a[2] = %d\n", a[2]);
    return (0);
  }
-0 comments on commit 14e6e48
+
