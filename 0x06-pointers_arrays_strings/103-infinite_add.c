@@ -26,7 +26,7 @@ void rev_string(char *n)
 	}
 }
 
-iiii/**
+/**
  * infinite_add - add 2 numbers together
  * @n1: text representation of 1st number to add
  * @n2: text representation of 2nd number to add
