@@ -41,4 +41,4 @@ char *argstostr(int ac, char **av)
 		p[k] = '\n';
 		k++;
 	}
-
+}
