@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
- *
- * Return: Always 0 (Success)
- */
-int ain(void)
+* main - Print the name of the file compiled
+* from
+* Return: Void
+*/
+
+int main(void)
 {
-	printf("%s\n", __FILE__);
+	printf("%s\n", __BASE_FILE__);
+
 	return (0);
 }
-
