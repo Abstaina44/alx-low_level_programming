@@ -30,4 +30,3 @@
 		return (ops[i].f);
 	}
 
-
