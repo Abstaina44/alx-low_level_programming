@@ -1,21 +1,26 @@
-#include "lists.h"
+#include "main.h"
 
 /**
- * print_listint - prints all the elements of a linked list
- * @h: linked list of type listint_t to print
+ * binary_to_uint - converts a binary number to unsigned int
+ * @b: string containing the binary number
  *
- * Return: number of nodes
+ * Return: the converted number
  */
-size_t print_listint(const listint_t *h)
+unsigned int binary_to_uint(const char *b)
 {
-	size_t num = 0;
+	int i;
+	unsigned int dec_val = 0;
 
-	while (h)
+	if (!b)
+		return (0);
+
+	for (i = 0; b[i]; i++)
 	{
-		printf("%d\n", h->n);
-		num++;
-		h = h->next;
+		if (b[i] < '0' || b[i] > '1')
+			return (0);
+		dec_val = 2 * dec_val + (b[i] - '0');
 	}
 
-	return (num);
+	return (dec_val);
 }
+
