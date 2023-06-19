@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int _putchar(char c)
+{
+    // Implementation of _putchar function
+    return putchar(c);
+}
+
+int _islower(int c)
+{
+    // Implementation of _islower function
+    // Return 1 if the character is lowercase, 0 otherwise
+}
+
+int _isalpha(int c)
+{
+    // Implementation of _isalpha function
+    // Return 1 if the character is alphabetic, 0 otherwise
+}
+
+int _abs(int n)
+{
+    // Implementation of _abs function
+    // Return the absolute value of n
+}
+
+// Implement the remaining functions similarly
+
+// ...
+
+
